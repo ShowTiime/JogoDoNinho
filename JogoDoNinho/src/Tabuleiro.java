@@ -65,6 +65,8 @@ public class Tabuleiro {
 			int sub = num - this.trioNumerico.get(0);
 			if (this.pecas[sub] == 'G') {
 				PG = 'P';
+			} else {
+				PG = 'G';
 			}
 			
 			break;
